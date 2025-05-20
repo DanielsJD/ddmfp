@@ -3,10 +3,10 @@ import json
 import re
 import os
 
-USREPG = ""
-BRANCHEPG = ""
-MFPLINK = ""     # non mettere lo / finale al link
-MFPPSW = ""
+USREPG = "DanielsJD"
+BRANCHEPG = "ddmfp"
+MFPLINK = "https://danielsjd-mickeyomg.hf.space"     # non mettere lo / finale al link
+MFPPSW = "DaX9091"
 
 PROXY = f"{MFPLINK}/proxy/hls/manifest.m3u8?api_password={MFPPSW}&d="
 HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
